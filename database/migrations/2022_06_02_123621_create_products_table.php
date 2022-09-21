@@ -23,6 +23,7 @@ class CreateProductsTable extends Migration
             $table->double('star', 8,2);
             $table->double('price');
             $table->string('photo')->nullable();
+            // $table->string('photo');
             $table->timestamps();
         });
     }
